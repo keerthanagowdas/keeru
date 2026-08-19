@@ -77,23 +77,18 @@ backdrop-filter:blur(8px);
 
 }
 
-.cover{
-
-width:220px;
-
-height:220px;
-
-object-fit:cover;
-
-border-radius:20px;
-
-border:5px solid hotpink;
-
-margin-bottom:20px;
-
-box-shadow:0 10px 20px rgba(0,0,0,.25);
-
+/* FIX COVER IMAGE SIZE */
+.cover-image {
+    width: 180px !important;
+    height: 180px !important;
+    object-fit: cover !important;
+    display: block !important;
+    margin: 20px auto !important;
+    border-radius: 20px !important;
 }
+
+
+
 
 .subtitle{
 
