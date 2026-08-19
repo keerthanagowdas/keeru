@@ -303,23 +303,26 @@ GIFT PAGE
 FINAL PAGE
 =========================== */
 
-#page5 .gift-image {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    display:block;
-    margin:15px auto;
+
+.gift-image {
+    width: 180px !important;
+    height: 180px !important;
+    object-fit: cover !important;
+    display: block !important;
+    margin: 20px auto !important;
+    border-radius: 20px !important;
 }
 
 
-.final-message{
-    width:90%;
-    max-width:700px;
-    font-size:22px;
-    line-height:38px;
-    color:#333;
+.final-message {
+  width: 90%;
+  max-width: 700px;
+  font-size: 22px;
+  line-height: 38px;
+  color: #333;
+  text-align: left; /* or center, depending on your preferred layout */
+  white-space: pre-line; /* preserves new lines naturally */
 }
-
 /* ===========================
 FLOATING HEARTS
 =========================== */
